@@ -1,8 +1,11 @@
 package Unit;
 
-public class Character {
+public abstract class Character implements GameInterface {
+
+    private static int chaCnt = 10;
+    public static int getChaCnt() {return  chaCnt}
     String name;
-    protected int hp;
+    private int hp;
     protected int attack;
     protected int speed;
     protected int stamina;

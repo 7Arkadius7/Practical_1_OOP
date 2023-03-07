@@ -9,5 +9,9 @@ public class Crossbowman extends Character{
 
     public Crossbowman(String name, int hp, int attack, int speed, int stamina) {
         super(name, hp, attack, speed, stamina);
+        this.name = name;
+        this.speed = speed;
+        this.attack = attack;
+        this.stamina = stamina;
     }
 }
